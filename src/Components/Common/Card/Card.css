@@ -1,0 +1,16 @@
+.Card-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+.cardBtn{
+    border: none !important;
+    outline: none !important;
+    background-color: #b8aaaa !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+    border-radius: 5px !important;
+}

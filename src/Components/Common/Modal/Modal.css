@@ -1,0 +1,60 @@
+.ModalBox{
+    width: 50%;
+    background-color: #fff;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    z-index: 9999;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.ModalBox img{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.closeBtn{
+    height: 40px;
+    width: 40px;
+    padding: 5px 10px ;
+    position: absolute;
+    top: 10px;
+    border-radius: 100%;
+    border: none;
+    right: 10px;
+    font-weight: 800;
+}
+.txt_wrapper{
+    padding: 10px;
+}
+.chotiimg{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.img-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.img-wrapper img{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+.addtoCart{
+    width: 60%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
